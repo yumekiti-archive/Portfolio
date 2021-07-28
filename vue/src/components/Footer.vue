@@ -1,18 +1,16 @@
 <template>
-    <v-container>
-        <v-row>
-            <v-col cols="12" class="nav" @click="this.top">
-                <v-icon>
-                    mdi-chevron-up
-                </v-icon>
-            </v-col>
-            <v-col cols="12">
-                <footer class="footer">
-                    <div>&copy;YUMEKITI</div>
-                </footer>
-            </v-col>
-        </v-row>
-    </v-container>
+    <div>
+        <v-col cols="12" class="nav" @click="this.top">
+            <v-icon>
+                mdi-chevron-up
+            </v-icon>
+        </v-col>
+        <v-col cols="12">
+            <footer class="footer">
+                <div>&copy;YUMEKITI</div>
+            </footer>
+        </v-col>
+    </div>
 </template>
 
 <script>
