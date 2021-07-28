@@ -4,6 +4,7 @@ import Vuex from 'vuex'
 import string from '@/store/modules/string.js'
 import work from '@/store/modules/work.js'
 import skill from '@/store/modules/skill.js'
+import workdetail from '@/store/modules/workdetail.js'
 
 Vue.use(Vuex)
 
@@ -18,5 +19,6 @@ export default new Vuex.Store({
     string,
     work,
     skill,
+    workdetail,
   }
 })
