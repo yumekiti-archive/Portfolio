@@ -1,12 +1,18 @@
 <template>
-    <div>
-        <v-icon class="nav" @click="this.top">
-            mdi-chevron-up
-        </v-icon>
-        <footer class="footer">
-            <div>&copy;YUMEKITI</div>
-        </footer>
-    </div>
+    <v-container>
+        <v-row>
+            <v-col cols="12" class="nav">
+                <v-icon @click="this.top">
+                    mdi-chevron-up
+                </v-icon>
+            </v-col>
+            <v-col cols="12">
+                <footer class="footer">
+                    <div>&copy;YUMEKITI</div>
+                </footer>
+            </v-col>
+        </v-row>
+    </v-container>
 </template>
 
 <script>
@@ -28,7 +34,6 @@ export default {
 .nav{
     background-color: #CCFFFF;
     font-size: 40px;
-    width: 100%;
     display: flex;
     justify-content: center;
 }
