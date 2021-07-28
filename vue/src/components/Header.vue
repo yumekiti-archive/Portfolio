@@ -2,6 +2,7 @@
     <v-app-bar
         app
         color="white"
+        elevate-on-scroll
     >
         <v-toolbar-title>{{this.$store.state.string.jp.title}}</v-toolbar-title>
 

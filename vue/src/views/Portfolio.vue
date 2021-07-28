@@ -1,9 +1,9 @@
 <template>
     <v-app>
         
-        <Header />
+        <Header scroll-target="#scrolling"/>
 
-        <v-main>
+        <v-main id="scrolling">
             <MainVisual />
             <Works />
             <Skills />
