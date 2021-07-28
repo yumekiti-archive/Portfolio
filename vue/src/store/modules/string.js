@@ -10,7 +10,7 @@ export default {
                 サーバーについて勉強中です。
                 laravelとvue少し書けます。
                 `,
-            contact: '連絡はtwitterへ',
+            contact: '連絡はTwitterへ',
             footer: 'YUMEKITI',
         },
         link: {
