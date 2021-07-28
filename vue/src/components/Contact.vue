@@ -5,10 +5,12 @@
             <p style="word-wrap:break-word;" v-text="this.$store.state.string.jp.contact"></p>
             <v-row class="mt-5" cols="12">
                 <v-col sm="4">
-                    <p style="word-wrap:break-word;" v-text="this.$store.state.string.link.twitter"></p>
+                    <v-icon class="mx-3">mdi-twitter</v-icon>
+                    <a :href="this.$store.state.string.link.twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </v-col>
                 <v-col sm="4">
-                    <p style="word-wrap:break-word;" v-text="this.$store.state.string.link.github"></p>
+                    <v-icon class="mx-3">mdi-github</v-icon>
+                    <a :href="this.$store.state.string.link.github" target="_blank" rel="noopener noreferrer">Github</a>
                 </v-col>
                 <v-col sm="4">
                     <p style="word-wrap:break-word;" v-text="this.$store.state.string.link.email"></p>
@@ -39,6 +41,10 @@ export default {
 
 .img{
     border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
 }
 
 </style>
