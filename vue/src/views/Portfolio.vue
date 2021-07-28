@@ -8,6 +8,7 @@
             <Works />
             <Skills />
             <About />
+            <Contact />
         </v-main>
 
     </v-app>
@@ -19,6 +20,7 @@ import MainVisual from '@/components/MainVisual.vue'
 import Works from '@/components/Works.vue'
 import Skills from '@/components/Skills.vue'
 import About from '@/components/About.vue'
+import Contact from '@/components/Contact.vue'
 
 export default {
     name: 'Portfolio',
@@ -28,6 +30,7 @@ export default {
         Works,
         Skills,
         About,
+        Contact,
     },
 }
 </script>

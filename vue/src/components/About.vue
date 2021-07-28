@@ -7,7 +7,7 @@
                     <img class="img" width="100" height="100" :src="$store.state.string.img.about" alt="image">
                 </v-col>
                 <v-col sm="8">
-                    <p style="word-wrap:break-word;" v-text="this.$store.state.string.jp.about"></p>
+                    <p style="white-space:pre-wrap; word-wrap:break-word;" v-text="this.$store.state.string.jp.about"></p>
                 </v-col>
             </v-row>
         </v-container>
