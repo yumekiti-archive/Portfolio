@@ -1,8 +1,8 @@
 <template>
     <v-container>
         <v-row>
-            <v-col cols="12" class="nav">
-                <v-icon @click="this.top">
+            <v-col cols="12" class="nav" @click="this.top">
+                <v-icon>
                     mdi-chevron-up
                 </v-icon>
             </v-col>
