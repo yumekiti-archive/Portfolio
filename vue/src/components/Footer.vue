@@ -7,7 +7,7 @@
         </v-col>
         <v-col cols="12">
             <footer class="footer">
-                <div>&copy;YUMEKITI</div>
+                <p>&copy;{{this.$store.state.string.jp.footer}}</p>
             </footer>
         </v-col>
     </div>

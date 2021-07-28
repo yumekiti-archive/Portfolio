@@ -11,6 +11,7 @@ export default {
                 laravelとvue少し書けます。
                 `,
             contact: '連絡はtwitterへ',
+            footer: 'YUMEKITI',
         },
         link: {
             twitter: 'https://twitter.com/yumekiti1204',
