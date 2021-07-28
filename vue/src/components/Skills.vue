@@ -1,6 +1,6 @@
 <template>
-    <v-app class="sk">
-        <v-container class="my-15">
+    <div class="sk">
+        <v-container>
             <h2 class="sk-title">SKILL</h2>
             <v-row>
                 <v-col cols="12" sm="6" v-for="(skill, index) in this.skills" :key="index">
@@ -16,7 +16,7 @@
                 </v-col>
             </v-row>
         </v-container>
-    </v-app>
+    </div>
 </template>
 
 <script>
@@ -31,6 +31,10 @@ export default {
 </script>
 
 <style scoped>
+
+.sk{
+    padding: 30px 0;
+}
 
 .sk-title{
     text-align: center;

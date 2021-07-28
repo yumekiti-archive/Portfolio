@@ -6,6 +6,9 @@ export default {
             name: 'ゆめきち',
             skill: 'Docker',
             job: '学生',
+            about: `
+                サーバーについて勉強中です。
+                `,
         },
         link: {
             twitter: 'https://twitter.com/yumekiti1204',
@@ -13,6 +16,7 @@ export default {
         },
         img: {
             mv: 'https://pbs.twimg.com/profile_images/1386249283301642244/3b6ZNVpb_400x400.png',
+            about: 'https://pbs.twimg.com/profile_images/1386249283301642244/3b6ZNVpb_400x400.png',
         },
     },
 }

@@ -1,6 +1,6 @@
 <template>
-    <v-app class="wk">
-        <v-container class="my-15">
+    <div class="wk">
+        <v-container>
             <h2 class="wk-title">WORKS</h2>
             <v-row>
                 <v-col cols="12" sm="6" v-for="(work, index) in this.works" :key="index">
@@ -17,7 +17,7 @@
                 </v-col>
             </v-row>
         </v-container>
-    </v-app>
+    </div>
 </template>
 
 <script>
@@ -35,6 +35,7 @@ export default {
 
 .wk{
     background-color: aliceblue;
+    padding: 30px 0;
 }
 
 .wk-title{
