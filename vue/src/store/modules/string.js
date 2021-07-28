@@ -2,9 +2,9 @@ export default {
     namespaced:true,
     state: {
         jp: {
-            title: 'ポートフォリオ',
+            title: 'ポートフォリオ的な、なにか。',
             name: 'ゆめきち',
-            skill: 'docker',
+            skill: 'Docker',
             job: '学生',
         },
         link: {
@@ -14,11 +14,5 @@ export default {
         img: {
             mv: 'https://pbs.twimg.com/profile_images/1386249283301642244/3b6ZNVpb_400x400.png',
         },
-    },
-    mutations: {
-    },
-    getters:{
-    },
-    actions: {
     },
 }

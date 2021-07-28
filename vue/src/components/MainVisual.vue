@@ -1,28 +1,55 @@
 <template>
     <v-app class="mv">
-        <v-container class="container">
-            <img width="300" height="300" :src="$store.state.string.img.mv" alt="photo">
-            
-            <ul>
-                <li>Name: {{this.$store.state.string.jp.name}}</li><br>
-                <li>MainSkill: {{this.$store.state.string.jp.skill}}</li><br>
-                <li>Job: {{this.$store.state.string.jp.job}}</li><br>
-            </ul>
-
+        <v-container>
+            <v-row cols="12" class="row">
+                <v-col sm="6">
+                    <img width="300" height="300" :src="$store.state.string.img.mv" alt="photo">
+                </v-col>
+                <v-col sm="6">
+                    <ul v-for="(lidata, index) in lidatas" :key="index">
+                        <li class="title">{{lidata.title}}</li>
+                        <li>{{lidata.text}}</li><br>
+                    </ul>
+                </v-col>
+            </v-row>
         </v-container>
     </v-app>
 </template>
 
+<script>
+export default {
+    name: "MainVisual",
+    data(){
+        return{
+            lidatas:[
+                { title: 'Name', text: this.$store.state.string.jp.name },
+                { title: 'MainSkill', text: this.$store.state.string.jp.skill },
+                { title: 'Job', text: this.$store.state.string.jp.job },
+            ]
+        }
+    },
+}
+</script>
+
 <style scoped>
 
-.container{
+.row{
     display: flex;
     justify-content: center;
-    margin: 100px 0;
+    margin: 80px 0;
+    text-align: center;
 }
 
 ul {
   list-style: none;
+}
+
+li {
+    font-size: 28px;
+}
+
+.title {
+    opacity: 0.5;
 }
 
 </style>
