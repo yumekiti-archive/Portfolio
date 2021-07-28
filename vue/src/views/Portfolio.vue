@@ -6,6 +6,7 @@
         <v-main>
             <MainVisual />
             <Works />
+            <Skills />
         </v-main>
 
     </v-app>
@@ -15,6 +16,7 @@
 import Header from '@/components/Header.vue'
 import MainVisual from '@/components/MainVisual.vue'
 import Works from '@/components/Works.vue'
+import Skills from '@/components/Skills.vue'
 
 export default {
     name: 'Portfolio',
@@ -22,6 +24,7 @@ export default {
         Header,
         MainVisual,
         Works,
+        Skills,
     },
 }
 </script>

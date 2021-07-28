@@ -1,7 +1,7 @@
 <template>
     <v-app class="wk">
         <v-container class="my-15">
-            <p class="wk-title">WORKS</p>
+            <h2 class="wk-title">WORKS</h2>
             <v-row>
                 <v-col cols="12" sm="6" v-for="(work, index) in this.works" :key="index">
                     <v-card :to="work.to">
@@ -25,7 +25,7 @@ export default {
     name: 'Works',
     computed: {
         works(){
-            return this.$store.state.works.works
+            return this.$store.state.work.works
         },
     }
 }
@@ -39,7 +39,7 @@ export default {
 
 .wk-title{
     text-align: center;
-    font-size: 80px;
+    font-size: 45px;
     margin-bottom: 50px;
 }
 

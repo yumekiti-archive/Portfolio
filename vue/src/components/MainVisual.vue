@@ -3,7 +3,7 @@
         <v-container>
             <v-row cols="12" class="row">
                 <v-col sm="6">
-                    <img width="300" height="300" :src="$store.state.string.img.mv" alt="photo">
+                    <img class="img" width="300" height="300" :src="$store.state.string.img.mv" alt="photo">
                 </v-col>
                 <v-col sm="6">
                     <ul v-for="(lidata, index) in lidatas" :key="index">
@@ -46,10 +46,15 @@ ul {
 
 li {
     font-size: 28px;
+    padding-right: 0.4em;
 }
 
 .title {
     opacity: 0.5;
+}
+
+.img{
+    border-radius: 50%;
 }
 
 </style>
