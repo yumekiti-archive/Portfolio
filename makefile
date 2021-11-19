@@ -24,3 +24,7 @@ logs:
 .PHONY: vue
 vue:
 	$(dc) exec vue /bin/sh
+
+.PHONY: nginx
+nginx:
+	$(dc) exec nginx /bin/sh
