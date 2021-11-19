@@ -4,7 +4,7 @@
         color="white"
         elevate-on-scroll
     >
-        <v-toolbar-title @click="if(this.$route.path != '/') $router.push('/')">{{this.$store.state.string.jp.title}}</v-toolbar-title>
+        <v-toolbar-title @click="this.home">{{this.$store.state.string.jp.title}}</v-toolbar-title>
 
         <v-spacer></v-spacer>
 
@@ -18,3 +18,16 @@
 
     </v-app-bar>
 </template>
+
+<script>
+export default {
+    name: 'Header',
+    methods:{
+        home(){
+            if(this.$route.path != '/'){
+                this.$router.push('/')
+            }
+        }
+    }
+}
+</script>
