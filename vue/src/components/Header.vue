@@ -4,7 +4,7 @@
         color="white"
         elevate-on-scroll
     >
-        <v-toolbar-title v-if="this.$route.path != '/'" @click="$router.push('/')">{{this.$store.state.string.jp.title}}</v-toolbar-title>
+        <v-toolbar-title @click="if(this.$route.path != '/') $router.push('/')">{{this.$store.state.string.jp.title}}</v-toolbar-title>
 
         <v-spacer></v-spacer>
 
