@@ -34,7 +34,7 @@ export default {
 <style scoped>
 
 .wk{
-    background-color: aliceblue;
+    background-color: #ccffff;
     padding: 30px 0;
 }
 

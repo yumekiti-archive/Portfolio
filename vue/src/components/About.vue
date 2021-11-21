@@ -23,7 +23,7 @@ export default {
 <style scoped>
 
 .ab{
-    background-color: aliceblue;
+    background-color: #ccffff;
     padding: 30px 0;
     text-align: center;
 }

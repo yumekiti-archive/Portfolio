@@ -30,7 +30,7 @@ export default {
 <style scoped>
 
 .nav{
-    background-color: #CCFFFF;
+    background-color: #99ffff;
     font-size: 40px;
     display: flex;
     justify-content: center;

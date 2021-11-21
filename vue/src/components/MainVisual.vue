@@ -36,7 +36,7 @@ export default {
 .row{
     display: flex;
     justify-content: center;
-    margin: 80px 0;
+    margin: 8% 0;
     text-align: center;
 }
 
