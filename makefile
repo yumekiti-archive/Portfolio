@@ -37,4 +37,4 @@ nginx:
 
 .PHONY: ip
 ip:
-	bash awk '{print ^$1}' ./docker/nginx/log/access.log | sort | uniq -c | sort -nr
+	bash awk '{print $$1}' ./docker/nginx/log/access.log | sort | uniq -c | sort -nr
