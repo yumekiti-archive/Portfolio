@@ -1,12 +1,6 @@
 
 dc := docker-compose -f ./docker/docker-compose.yml
 
-.PHONY: init
-init:
-	touch ./docker/nginx/log/access.log
-	touch ./docker/nginx/log/error.log
-	$(dc) up -d --build
-
 .PHONY: up
 up:
 	$(dc) up -d --build
