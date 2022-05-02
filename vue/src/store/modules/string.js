@@ -19,8 +19,8 @@ export default {
             email: 'xxxxx@xxx.xxx',
         },
         img: {
-            mv: 'https://pbs.twimg.com/profile_images/1458645944808144896/Kdj46bSQ_400x400.jpg',
-            about: 'https://pbs.twimg.com/profile_images/1458645944808144896/Kdj46bSQ_400x400.jpg',
+            mv: 'https://pbs.twimg.com/profile_images/1492151996857860097/MRnAqw5h_400x400.png',
+            about: 'https://pbs.twimg.com/profile_images/1492151996857860097/MRnAqw5h_400x400.png',
         },
     },
 }
