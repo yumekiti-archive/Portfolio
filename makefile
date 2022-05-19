@@ -1,5 +1,5 @@
 
-dc := docker-compose -f ./docker/docker-compose.yml
+dc := docker-compose -f ./docker/docker-compose.development.yml
 
 .PHONY: up
 up:

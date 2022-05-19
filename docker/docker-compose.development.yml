@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+
+  node:
+    image: node:14.17.0-alpine
+    container_name: 'portfolio'
+    working_dir: /app
+    volumes:
+      - ../vue:/app
+    ports:
+      - '8080:8080'
+    command: >
+      sh -c "
+        npm install &&
+        npm run serve -- --port 8080
+      "
+  
