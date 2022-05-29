@@ -4,12 +4,12 @@
       <h2 class="ab-title">About</h2>
       <v-row>
         <v-col cols="12" sm="6">
-          <img class="img" width="100" height="100" :src="$store.state.main.icon" alt="image" />
+          <img class="img" width="100" height="100" :src="this.icon" alt="image" />
         </v-col>
         <v-col cols="12" sm="6">
           <p
             style="text-align: left; white-space: pre-wrap; word-wrap: break-word"
-            v-text="this.$store.state.main.jp.about"
+            v-text="this.about"
           ></p>
         </v-col>
       </v-row>
@@ -20,6 +20,10 @@
 <script>
 export default {
   nane: 'About',
+  props: {
+    about: String,
+    icon: String,
+  }
 };
 </script>
 
