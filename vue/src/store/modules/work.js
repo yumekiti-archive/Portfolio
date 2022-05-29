@@ -3,14 +3,20 @@ export default {
     state: {
         works:[
             {
-                id: 1,
                 title: 'サーバーデプロイ用ポートフォリオ',
-                src: 'https://pbs.twimg.com/profile_banners/885036975136395264/1640313696/1500x500',
+                img: 'https://pbs.twimg.com/profile_banners/885036975136395264/1640313696/1500x500',
+                body: `
+                    リアルタイムでコードを比較できるアプリを制作しました。
+                    Nest.js のみで動いています。
+                `,
             },
             {
-                id: 2,
                 title: 'リアルタイムコード比較',
-                src: 'https://raw.githubusercontent.com/yumekiti/Diff_Sync_Code/master/public/icon.png',
+                img: 'https://raw.githubusercontent.com/yumekiti/Diff_Sync_Code/master/public/icon.png',
+                body: `
+                    リアルタイムでコードを比較できるアプリを制作しました。
+                    Nest.js のみで動いています。
+                `,
             },
         ],
     },

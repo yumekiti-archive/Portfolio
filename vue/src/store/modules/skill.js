@@ -5,7 +5,7 @@ export default {
             {
                 icon: 'mdi-docker',
                 name: 'Docker',
-                detail: 'メインで使ってます。',
+                detail: '開発時によく使います',
             },
             {
                 icon: 'mdi-linux',
@@ -15,12 +15,12 @@ export default {
             {
                 icon: 'mdi-laravel',
                 name: 'Laravel',
-                detail: '基本は使えます。',
+                detail: 'バックエンドとしてよく使います',
             },
             {
                 icon: 'mdi-vuejs',
                 name: 'Vue',
-                detail: 'このサイトはVueです。',
+                detail: 'フロントエンドで使いました',
             },
         ]
     },
