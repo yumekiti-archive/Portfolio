@@ -20,12 +20,17 @@
 <script>
 export default {
   name: 'MainVisual',
+  props: {
+    name: String,
+    skill: String,
+    job: String,
+  },
   data() {
     return {
       lidatas: [
-        { title: 'Name', text: this.$store.state.main.jp.name },
-        { title: 'MainSkill', text: this.$store.state.main.jp.skill },
-        { title: 'Job', text: this.$store.state.main.jp.job },
+        { title: 'Name', text: this.name },
+        { title: 'MainSkill', text: this.skill },
+        { title: 'Job', text: this.job },
       ],
     };
   },
