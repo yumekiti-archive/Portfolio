@@ -1,7 +1,12 @@
 <template>
     <v-app>
         
-        <Header scroll-target="#scrolling"/>
+        <Header
+            scroll-target="#scrolling"
+            :title="this.$store.state.main.jp.title"
+            :twitter="this.$store.state.main.link.twitter"
+            :github="this.$store.state.main.link.github"
+        />
 
         <v-main id="scrolling">
             <MainVisual />
