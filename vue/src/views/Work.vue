@@ -2,7 +2,7 @@
   <div class="wk">
     <Header
       scroll-target="#scrolling"
-      :title="this.$store.state.main.title"
+      :title="this.work.title"
       :twitter="this.$store.state.main.link.twitter"
       :github="this.$store.state.main.link.github"
     />
@@ -11,9 +11,7 @@
     <v-container>
       <v-row cols="12" class="row">
         <v-col sm="12">
-          <div class="text">
-            {{ work.body }}
-          </div>
+          <div class="text" v-html="compiledMarkdown"></div>
           <div class="exit">
             <v-icon @click="$router.push('/')">mdi-arrow-left</v-icon>
           </div>
@@ -28,6 +26,7 @@
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+import { marked } from 'marked';
 
 export default {
   name: 'Work',
@@ -38,6 +37,9 @@ export default {
   computed: {
     work() {
       return this.$store.state.work.works[this.$route.params.id];
+    },
+    compiledMarkdown() {
+      return marked(this.work.body);
     },
   },
 };
