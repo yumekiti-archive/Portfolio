@@ -6,9 +6,9 @@ export default {
     skill: 'Docker',
     job: '学生',
     about: `
-              サーバーについて勉強中です。
-              laravelとvue少し書けます。
-              `,
+      サーバーについて勉強中です。
+      laravelとvue少し書けます。
+    `,
     contact: '連絡はTwitterへ',
     footer: 'YUMEKITI',
     email: 'xxxxx@xxx.xxx',
