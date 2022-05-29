@@ -5,7 +5,7 @@
     </v-col>
     <v-col cols="12">
       <footer class="footer">
-        <p>&copy;{{ this.$store.state.main.jp.footer }}</p>
+        <p>&copy;{{ this.footer }}</p>
       </footer>
     </v-col>
   </div>
@@ -14,6 +14,9 @@
 <script>
 export default {
   name: 'Footer',
+  props: {
+    footer: String
+  },
   methods: {
     top() {
       window.scrollTo({
