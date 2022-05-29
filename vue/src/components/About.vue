@@ -23,7 +23,7 @@ export default {
   props: {
     about: String,
     icon: String,
-  }
+  },
 };
 </script>
 

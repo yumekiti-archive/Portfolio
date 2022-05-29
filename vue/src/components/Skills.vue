@@ -26,7 +26,7 @@ export default {
   nane: 'Skill',
   props: {
     skills: Array,
-  }
+  },
 };
 </script>
 

@@ -25,7 +25,7 @@ export default {
   name: 'Works',
   props: {
     works: Array,
-  }
+  },
 };
 </script>
 

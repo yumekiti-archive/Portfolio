@@ -6,15 +6,11 @@
       <v-row class="mt-5" cols="12">
         <v-col sm="4">
           <v-icon class="mx-3">mdi-twitter</v-icon>
-          <a :href="this.twitter" target="_blank" rel="noopener noreferrer"
-            >Twitter</a
-          >
+          <a :href="this.twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
         </v-col>
         <v-col sm="4">
           <v-icon class="mx-3">mdi-github</v-icon>
-          <a :href="this.github" target="_blank" rel="noopener noreferrer"
-            >Github</a
-          >
+          <a :href="this.github" target="_blank" rel="noopener noreferrer">Github</a>
         </v-col>
         <v-col sm="4">
           <p style="word-wrap: break-word" v-text="this.email"></p>
@@ -32,7 +28,7 @@ export default {
     email: String,
     github: String,
     twitter: String,
-  }
+  },
 };
 </script>
 

@@ -12,7 +12,7 @@
       <v-row cols="12" class="row">
         <v-col sm="12">
           <div class="text">
-            {{work.body}}
+            {{ work.body }}
           </div>
           <div class="exit">
             <v-icon @click="$router.push('/')">mdi-arrow-left</v-icon>
@@ -21,9 +21,7 @@
       </v-row>
     </v-container>
 
-    <Footer
-      :footer="this.$store.state.main.footer"
-    />
+    <Footer :footer="this.$store.state.main.footer" />
   </div>
 </template>
 

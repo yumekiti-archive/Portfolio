@@ -15,7 +15,7 @@
 export default {
   name: 'Footer',
   props: {
-    footer: String
+    footer: String,
   },
   methods: {
     top() {
