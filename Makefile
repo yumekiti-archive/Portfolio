@@ -12,6 +12,11 @@ down:
 .PHONY: restart
 restart:
 	$(dc) restart
+	
+.PHONY: reup
+reup:
+	@make down
+	@make up
 
 .PHONY: rm
 rm:
