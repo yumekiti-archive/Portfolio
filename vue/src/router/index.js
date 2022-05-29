@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-// import Home from '../views/Home.vue'
 import Portfolio from '@/views/Portfolio.vue';
 import Work from '@/views/Work.vue';
+import store from '@/store/index'
 
 Vue.use(VueRouter);
 
@@ -11,31 +11,27 @@ const routes = [
     path: '/',
     name: 'Portfolio',
     component: Portfolio,
+    meta: { title: store.state.main.title }
   },
   {
     path: '/work',
     name: 'Work',
     component: Work,
+    meta: { title: store.state.main.title }
   },
-  // {
-  //   path: '/',
-  //   name: 'Home',
-  //   component: Home
-  // },
-  // {
-  //   path: '/about',
-  //   name: 'About',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // }
 ];
+
+const DEFAULT_TITLE = 'Default Title'
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
 });
+
+router.afterEach((to) => {
+  document.title = to.meta.title || DEFAULT_TITLE
+})
+
 
 export default router;
