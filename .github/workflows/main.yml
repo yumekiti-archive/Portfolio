@@ -1,0 +1,23 @@
+name: Check the source code
+on: push
+jobs:
+  test:
+    name: Check the source code
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Install packages
+        run: npm ci
+        working-directory: ./vue
+      - name: Prettier
+        run: npm run prettier
+        working-directory: ./vue
+      - name: Lint
+        run: npm run lint
+        working-directory: ./vue
+      - uses: stefanzweifel/git-auto-commit-action@v3.0.0
+        with:
+          commit_message: Apply Prettier Change
+          ref: ${{ github.head_ref }}
