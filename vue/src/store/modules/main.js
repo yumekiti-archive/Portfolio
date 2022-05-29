@@ -18,9 +18,6 @@ export default {
             github: 'https://github.com/yumekiti',
             email: 'xxxxx@xxx.xxx',
         },
-        img: {
-            mv: 'https://pbs.twimg.com/profile_images/1492151996857860097/MRnAqw5h_400x400.png',
-            about: 'https://pbs.twimg.com/profile_images/1492151996857860097/MRnAqw5h_400x400.png',
-        },
+        icon: 'https://pbs.twimg.com/profile_images/1492151996857860097/MRnAqw5h_400x400.png',
     },
 }

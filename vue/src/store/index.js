@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import string from '@/store/modules/string.js'
+import main from '@/store/modules/main.js'
 import skill from '@/store/modules/skill.js'
 import work from '@/store/modules/work.js'
 
@@ -15,7 +15,7 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
-    string,
+    main,
     skill,
     work,
   }

@@ -7,7 +7,7 @@
         </v-col>
         <v-col cols="12">
             <footer class="footer">
-                <p>&copy;{{this.$store.state.string.jp.footer}}</p>
+                <p>&copy;{{this.$store.state.main.jp.footer}}</p>
             </footer>
         </v-col>
     </div>

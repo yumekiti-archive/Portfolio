@@ -3,7 +3,7 @@
         <v-container>
             <v-row cols="12" class="row">
                 <v-col sm="6">
-                    <img class="img" width="300" height="300" :src="$store.state.string.img.mv" alt="photo">
+                    <img class="img" width="300" height="300" :src="$store.state.main.icon" alt="photo">
                 </v-col>
                 <v-col sm="6">
                     <ul v-for="(lidata, index) in lidatas" :key="index">
@@ -22,9 +22,9 @@ export default {
     data(){
         return{
             lidatas:[
-                { title: 'Name', text: this.$store.state.string.jp.name },
-                { title: 'MainSkill', text: this.$store.state.string.jp.skill },
-                { title: 'Job', text: this.$store.state.string.jp.job },
+                { title: 'Name', text: this.$store.state.main.jp.name },
+                { title: 'MainSkill', text: this.$store.state.main.jp.skill },
+                { title: 'Job', text: this.$store.state.main.jp.job },
             ]
         }
     },
