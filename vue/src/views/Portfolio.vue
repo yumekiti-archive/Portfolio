@@ -23,8 +23,13 @@
         :about="this.$store.state.main.about"
         :icon="this.$store.state.main.icon"
       />
+      <Contact
+        :contact="this.$store.state.main.contact"
+        :email="this.$store.state.main.email"
+        :github="this.$store.state.main.link.github"
+        :twitter="this.$store.state.main.link.twitter"
+      />
       <!--
-      <Contact />
       <Footer />
       -->
     </v-main>
@@ -37,7 +42,7 @@ import MainVisual from '@/components/MainVisual.vue';
 import Works from '@/components/Works.vue';
 import Skills from '@/components/Skills.vue';
 import About from '@/components/About.vue';
-// import Contact from '@/components/Contact.vue';
+import Contact from '@/components/Contact.vue';
 // import Footer from '@/components/Footer.vue';
 
 export default {
@@ -48,6 +53,7 @@ export default {
     Works,
     Skills,
     About,
+    Contact,
   },
 };
 </script>

@@ -11,10 +11,10 @@ export default {
               `,
     contact: '連絡はTwitterへ',
     footer: 'YUMEKITI',
+    email: 'xxxxx@xxx.xxx',
     link: {
       twitter: 'https://twitter.com/yumekiti1204',
       github: 'https://github.com/yumekiti',
-      email: 'xxxxx@xxx.xxx',
     },
     icon: 'https://pbs.twimg.com/profile_images/1492151996857860097/MRnAqw5h_400x400.png',
   },
