@@ -16,8 +16,10 @@
       <Works
         :works="this.$store.state.work.works"
       />
+      <Skills
+        :skills="this.$store.state.skill.skills"
+      />
       <!--
-      <Skills />
       <About />
       <Contact />
       <Footer />
@@ -30,7 +32,7 @@
 import Header from '@/components/Header.vue';
 import MainVisual from '@/components/MainVisual.vue';
 import Works from '@/components/Works.vue';
-// import Skills from '@/components/Skills.vue';
+import Skills from '@/components/Skills.vue';
 // import About from '@/components/About.vue';
 // import Contact from '@/components/Contact.vue';
 // import Footer from '@/components/Footer.vue';
@@ -41,6 +43,7 @@ export default {
     Header,
     MainVisual,
     Works,
+    Skills,
   },
 };
 </script>

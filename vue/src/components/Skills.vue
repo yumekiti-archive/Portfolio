@@ -24,11 +24,9 @@
 <script>
 export default {
   nane: 'Skill',
-  computed: {
-    skills() {
-      return this.$store.state.skill.skills;
-    },
-  },
+  props: {
+    skills: Array,
+  }
 };
 </script>
 
