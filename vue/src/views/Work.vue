@@ -37,7 +37,7 @@ export default {
   },
   computed: {
     work() {
-      return this.$store.state.work.works[this.$route.query.id];
+      return this.$store.state.work.works[this.$route.params.id];
     },
   },
 };

@@ -14,7 +14,7 @@ const routes = [
     meta: { title: store.state.main.title },
   },
   {
-    path: '/work',
+    path: '/work/:id',
     name: 'Work',
     component: Work,
     meta: { title: store.state.main.title },

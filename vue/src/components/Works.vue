@@ -4,7 +4,7 @@
       <h2 class="wk-title">WORKS</h2>
       <v-row>
         <v-col cols="12" sm="6" v-for="(work, index) in this.works" :key="index">
-          <v-card :to="{ name: 'Work', query: { id: index } }">
+          <v-card :to="{ name: 'Work', params: { id: index } }">
             <v-img
               :src="work.img"
               class="white--text align-end"
