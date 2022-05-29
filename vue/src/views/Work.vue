@@ -1,25 +1,19 @@
 <template>
   <div class="wk">
-    <Header />
+    <Header
+      scroll-target="#scrolling"
+      :title="this.$store.state.main.title"
+      :twitter="this.$store.state.main.link.twitter"
+      :github="this.$store.state.main.link.github"
+    />
 
+    <v-img :src="work.img" contain height="200" />
     <v-container>
       <v-row cols="12" class="row">
-        <v-col sm="6">
-          <v-img :src="work.src" />
-        </v-col>
-      </v-row>
-      <v-row cols="12" class="row">
         <v-col sm="12">
-          <p class="title">{{ this.work.title }}</p>
-          <p class="text">
-            {{ this.workdetail.text }}
-          </p>
-          <p>
-            URL :
-            <a :href="this.workdetail.url" target="_blank" rel="noopener noreferrer">{{
-              this.workdetail.url
-            }}</a>
-          </p>
+          <div class="text">
+            {{work.body}}
+          </div>
           <div class="exit">
             <v-icon @click="$router.push('/')">mdi-arrow-left</v-icon>
           </div>
@@ -27,7 +21,9 @@
       </v-row>
     </v-container>
 
-    <Footer />
+    <Footer
+      :footer="this.$store.state.main.footer"
+    />
   </div>
 </template>
 
@@ -43,12 +39,7 @@ export default {
   },
   computed: {
     work() {
-      return this.$store.state.work.works.filter((data) => data.id == this.$route.query.id)[0];
-    },
-    workdetail() {
-      return this.$store.state.workdetail.works.filter(
-        (data) => data.id == this.$route.query.id,
-      )[0];
+      return this.$store.state.work.works[this.$route.query.id];
     },
   },
 };
