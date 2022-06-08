@@ -4,16 +4,16 @@
       <h2 class="ct-title">Contact</h2>
       <p style="word-wrap: break-word" v-text="this.contact"></p>
       <v-row class="mt-5" cols="12">
-        <v-col sm="4">
+        <v-col sm="4" class="ct-item">
           <v-icon class="mx-3">mdi-twitter</v-icon>
-          <a :href="this.twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a :href="this.twitter" class="mt-1" target="_blank" rel="noopener noreferrer">Twitter</a>
         </v-col>
-        <v-col sm="4">
+        <v-col sm="4" class="ct-item">
           <v-icon class="mx-3">mdi-github</v-icon>
-          <a :href="this.github" target="_blank" rel="noopener noreferrer">Github</a>
+          <a :href="this.github" class="mt-1" target="_blank" rel="noopener noreferrer">Github</a>
         </v-col>
-        <v-col sm="4">
-          <p style="word-wrap: break-word" v-text="this.email"></p>
+        <v-col sm="4" class="ct-item">
+          <span class="mt-1" style="word-wrap: break-word" v-text="this.email"></span>
         </v-col>
       </v-row>
     </v-container>
@@ -42,6 +42,12 @@ export default {
   text-align: center;
   font-size: 45px;
   margin-bottom: 50px;
+}
+
+.ct-item {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .img {

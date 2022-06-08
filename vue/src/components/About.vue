@@ -8,7 +8,7 @@
         </v-col>
         <v-col cols="12" sm="6">
           <p
-            style="text-align: left; white-space: pre-wrap; word-wrap: break-word"
+            style="white-space: pre-wrap; word-wrap: break-word"
             v-text="this.about"
           ></p>
         </v-col>
