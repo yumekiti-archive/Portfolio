@@ -41,7 +41,7 @@ export default {
 .row {
   display: flex;
   justify-content: center;
-  margin: 8% 0;
+  margin: 10% 0;
   text-align: center;
 }
 
