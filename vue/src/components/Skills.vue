@@ -4,10 +4,7 @@
       <h2 class="sk-title">SKILL</h2>
       <v-row>
         <v-col cols="12" sm="6" v-for="(skill, index) in this.skills" :key="index">
-          <v-card
-            outlined
-            elevation="0"
-          >
+          <v-card outlined elevation="0">
             <v-list-item>
               <v-icon class="mr-5" style="font-size: 80px">{{ skill.icon }}</v-icon>
               <v-list-item-content class="sk-item">
