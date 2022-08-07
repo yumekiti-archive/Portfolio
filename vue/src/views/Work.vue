@@ -10,7 +10,7 @@
     <v-img :src="work.img" contain height="200" />
     <v-container>
       <v-row cols="12" class="row">
-        <v-col sm="12">
+        <v-col sm="6">
           <div class="text" v-html="compiledMarkdown"></div>
           <div class="exit">
             <v-icon @click="$router.push('/')">mdi-arrow-left</v-icon>
