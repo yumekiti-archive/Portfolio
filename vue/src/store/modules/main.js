@@ -6,12 +6,12 @@ export default {
     skill: 'Docker',
     job: '学生',
     about: `
-      サーバーについて勉強中です。
+      インフラについて勉強中です。
       laravelとvue少し書けます。
     `,
-    contact: '連絡はTwitterへ',
+    contact: '連絡はTwitterかメールアドレスへ',
     footer: 'YUMEKITI',
-    email: 'xxxxx@xxx.xxx',
+    email: 'yumekiti120440@gmail.com',
     link: {
       twitter: 'https://twitter.com/yumekiti1204',
       github: 'https://github.com/yumekiti',
