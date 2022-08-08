@@ -7,7 +7,7 @@ export default {
     job: '学生',
     about: `
       インフラについて勉強中です。
-      laravelとvue少し書けます。
+      LaravelとVue少し書けます。
     `,
     contact: '連絡はTwitterかメールアドレスへ',
     footer: 'YUMEKITI',
