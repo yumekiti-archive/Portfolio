@@ -1,0 +1,14 @@
+{
+  "short_name": "ゆめきちのポートフォリオ",
+  "name": "Create Vue App Sample",
+  "icons": [
+    {
+      "src": "64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff"
+}
