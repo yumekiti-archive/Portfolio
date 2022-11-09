@@ -1,8 +1,8 @@
-FROM node:14.17.0
+FROM node:14.17.0-alpine
 
-WORKDIR /mnt/vue/
+WORKDIR /app
 
 ENV NODE_OPTIONS="--max-old-space-size=1024"
 ENV CHOKIDAR_USEPOLLING=true
 
-CMD ["/bin/bash"]
+CMD ["/bin/sh"]
