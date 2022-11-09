@@ -44,7 +44,7 @@ export default {
   created() {
     const { id } = this.$route.params;
     this.work = this.$store.state.work.works[id];
-    axios.get(`https://raw.githubusercontent.com/yumekiti/Portfolio/main/src/contents/${this.work}`)
+    axios.get(`https://raw.githubusercontent.com/yumekiti/Portfolio/main/src/contents/${this.work.body}`)
       .then((res) => {
         this.compiledMarkdown = marked(res.data);
       });
