@@ -19,33 +19,18 @@ export default {
       },
       {
         icon: 'mdi-vuejs',
-        name: 'Vue.js',
-        detail: 'フロントエンドで使いました',
-      },
-      {
-        icon: 'mdi-vuejs',
         name: 'Nuxt.js',
         detail: 'チーム制作で学習コストをかけたくない時に使っていました',
       },
       {
         icon: 'mdi-react',
-        name: 'React',
-        detail: 'ブログ制作で使いました',
-      },
-      {
-        icon: 'mdi-react',
         name: 'Next.js',
-        detail: 'アプリ制作で使いました',
+        detail: 'ブログやアプリ制作で使いました',
       },
       {
         icon: 'mdi-react',
         name: 'React Native',
         detail: 'アプリをどうしても制作しないといけない時に使いました',
-      },
-      {
-        icon: 'mdi-nodejs',
-        name: 'SolidJS',
-        detail: '検証で使いました',
       },
       {
         icon: 'mdi-nodejs',
@@ -81,6 +66,11 @@ export default {
         icon: 'mdi-language-go',
         name: 'Echo',
         detail: '保守性を高める場合に使いました',
+      },
+      {
+        icon: 'mdi-server',
+        name: 'Proxmox VE',
+        detail: '自宅サーバで運用しています',
       },
       {
         icon: 'mdi-kubernetes',
