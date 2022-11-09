@@ -7,7 +7,7 @@
       :github="this.$store.state.main.link.github"
     />
 
-    <v-img :src="work.img" contain height="200" />
+    <v-img :src="`https://raw.githubusercontent.com/yumekiti/Portfolio/main/src/assets/${work.img}`" contain height="200" />
     <v-container>
       <v-row cols="12" class="row">
         <v-col sm="6" class="body" >

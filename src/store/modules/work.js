@@ -4,13 +4,18 @@ export default {
     works: [
       {
         title: 'サーバーデプロイ用ポートフォリオ',
-        img: 'https://pbs.twimg.com/profile_banners/885036975136395264/1640313696/1500x500',
+        img: 'portfolio.png',
         body: 'portfolio.md',
       },
       {
         title: 'リアルタイムコード比較',
-        img: 'https://raw.githubusercontent.com/yumekiti/Diff_Sync_Code/master/public/icon.png',
+        img: 'diff-sync-code.png',
         body: 'Diff_Sync_Code.md',
+      },
+      {
+        title: 'ブログ',
+        img: 'blog.png',
+        body: 'blog.md',
       },
     ],
   },

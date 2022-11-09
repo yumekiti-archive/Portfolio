@@ -6,7 +6,7 @@
         <v-col cols="12" sm="6" v-for="(work, index) in this.works" :key="index">
           <v-card :to="{ name: 'Work', params: { id: index } }">
             <v-img
-              :src="work.img"
+              :src="`https://raw.githubusercontent.com/yumekiti/Portfolio/main/src/assets/${work.img}`"
               class="white--text align-end"
               gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
               height="200px"
