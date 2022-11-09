@@ -33,6 +33,7 @@ export default {
 <style scoped>
 .sk {
   padding: 30px 0;
+  border-color: #094067;
 }
 
 .sk-title {
