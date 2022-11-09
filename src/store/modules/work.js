@@ -17,6 +17,11 @@ export default {
         img: 'blog.png',
         body: 'blog.md',
       },
+      {
+        title: 'Hack U 2022 Tokyo',
+        img: 'hacku.png',
+        body: 'hacku.md',
+      },
     ],
   },
 };
