@@ -3,11 +3,11 @@ export default {
   state: {
     title: 'ポートフォリオ的な、なにか。',
     name: 'ゆめきち',
-    skill: 'Webインフラ',
+    skill: 'Docker',
     job: '学生',
     about: `
       インフラについて勉強中です。
-      最近はAnsibleを使ってインフラをコード化しています。
+      LaravelとVue少し書けます。
     `,
     contact: '連絡はTwitterかメールアドレスへ',
     footer: 'YUMEKITI',

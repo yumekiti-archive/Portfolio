@@ -1,6 +1,6 @@
 # Diff Sync Code
 
-https://diff.yumekiti.net/
+https://diff-sync-code.up.railway.app/
 
 ## 問題定義
 
@@ -21,7 +21,7 @@ https://diff.yumekiti.net/
 
 ## フレームワーク
 
-Next.js
+Next
 
 ## 主要ライブラリ
 

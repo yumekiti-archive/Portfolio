@@ -5,9 +5,9 @@ https://blog.yumekiti.net/
 
 - TypeScript
 
-## ライブラリ
+## フレームワーク
 
-React
+Next.js
 
 ## 制作日
 
@@ -15,4 +15,4 @@ React
 
 ## こだわったこと
 
-データをstrapiを使用して管理ができるようにしました。
+データをstrapiを使用して雑に管理ができるようにしました。
