@@ -1,4 +1,4 @@
-# poipla
+# ぽいプラ
 
 https://diff.yumekiti.net/
 
@@ -11,6 +11,8 @@ https://diff.yumekiti.net/
 
 ## ceatec 2022
 https://comp.ecc.ac.jp/news/1665621945/0/
+
+https://www.ceatec.com/ja/exhibition/detail.html?id=278
 
 ## 制作日
 2022年4月 ~ 2022年8月 制作
