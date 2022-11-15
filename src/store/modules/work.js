@@ -18,6 +18,11 @@ export default {
         body: 'qr_stamp.md',
       },
       {
+        title: 'ぽいプラ',
+        img: 'poipla.png',
+        body: 'poipla.md',
+      },
+      {
         title: 'ブログ',
         img: 'blog.png',
         body: 'blog.md',
