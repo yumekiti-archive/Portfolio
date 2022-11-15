@@ -13,6 +13,11 @@ export default {
         body: 'Diff_Sync_Code.md',
       },
       {
+        title: 'QRスタンプラリー',
+        img: 'qr_stamp.png',
+        body: 'qr_stamp.md',
+      },
+      {
         title: 'ブログ',
         img: 'blog.png',
         body: 'blog.md',
