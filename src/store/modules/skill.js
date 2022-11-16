@@ -43,16 +43,6 @@ export default {
         detail: 'JSで言語を統一したい時に使ってました',
       },
       {
-        icon: 'mdi-jquery',
-        name: 'jQuery',
-        detail: 'プレーンなJavaScriptよりも使いやすいのでよく使ってました',
-      },
-      {
-        icon: 'mdi-language-javascript',
-        name: 'Alpine.js',
-        detail: '雑に作る時に使ってました',
-      },
-      {
         icon: 'mdi-language-typescript',
         name: 'Deno',
         detail: '一番好きな技術です！',

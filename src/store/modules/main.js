@@ -7,7 +7,7 @@ export default {
     job: '学生',
     about: `
       インフラについて勉強中です。
-      最近はAnsibleを使ってインフラをコード化しています。
+      最近はインフラをコード化してます。
     `,
     contact: '連絡はTwitterかメールアドレスへ',
     footer: 'YUMEKITI',
